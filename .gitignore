@@ -38,4 +38,10 @@ ENV/
 
 # Operating System
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Large data files
+*.zip
+*.dcm
+Covid Scans/
+Covid Scans.zip 
