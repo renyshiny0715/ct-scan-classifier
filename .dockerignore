@@ -1,0 +1,55 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test data
+Covid Scans/
+Covid Scans.zip
+*.dcm
+test_data/
+
+# Docker
+.dockerignore
+Dockerfile
+
+# Documentation
+*.md
+LICENSE
+
+# OS generated files
+.DS_Store
+Thumbs.db 
