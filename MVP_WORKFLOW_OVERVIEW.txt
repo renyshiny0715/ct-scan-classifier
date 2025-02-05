@@ -1,0 +1,18 @@
+Please create / modify the code for me. 
+
+Workflow Overview for CT Scan Classification MVP using ImageNet Pre-trained 2D CNNs
+
+1. Data Loading & Preprocessing:
+   - Load the CT scan volume from DICOM or similar formats.
+   - Extract individual 2D slices from the volume.
+   - Preprocess each slice: resize to the model's expected dimensions (e.g., 224x224), convert single-channel CT images to a 3-channel format, normalize pixel values, and apply any modality-specific adjustments (such as intensity windowing).
+
+2. Inference on Slices:
+   - Feed each preprocessed 2D slice into the ImageNet pre-trained CNN.
+   - Record the output scores or probabilities for each class for every slice.
+
+3. Aggregation of Results:
+   - Combine the slice-level predictions (e.g., averaging probabilities or using majority voting) to derive a final classification decision for the entire CT scan.
+
+4. Final Output:
+   - Present the aggregated classification result along with confidence scores, constituting the final output of the MVP. 

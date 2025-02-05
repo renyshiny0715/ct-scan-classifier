@@ -1,0 +1,2 @@
+Aggregated classification result (probabilities): [0.6838645  0.31613553]
+Predicted class for CT scan: Normal
